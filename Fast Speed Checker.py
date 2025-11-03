@@ -17,6 +17,7 @@ class FastSpeedChecker(tk.Tk):
        
         self.speed_label = tk.Label(self, text="0", fg="white", bg="#0d1117",
                                     font=("Helvetica", 56, "bold"))
+        
         self.speed_label.pack(pady=10)
         tk.Label(self, text="Mbps (Download)", fg="#a3a3a3", bg="#0d1117",
                  font=("Helvetica", 14)).pack()
